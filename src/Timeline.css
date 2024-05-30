@@ -1,0 +1,48 @@
+.timeline-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .timeline-header {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .timeline-year {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .timeline-year.highlight {
+    font-weight: bold;
+    color: #f00;
+  }
+  
+  .timeline-dot-container {
+    position: relative;
+    height: 10px;
+    background: #eee;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-dot {
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background: #f00;
+    border-radius: 50%;
+    transition: left 0.5s ease;
+  }
+  
+  .timeline-detail {
+    margin-top: 20px;
+  }
+  
+  .icon-large {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
